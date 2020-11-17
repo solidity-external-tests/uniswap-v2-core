@@ -1,3 +1,4 @@
+pragma experimental SMTChecker;
 pragma solidity >=0.6.2;
 
 import './interfaces/IUniswapV2Pair.sol';

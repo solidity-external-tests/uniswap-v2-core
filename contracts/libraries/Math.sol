@@ -1,3 +1,4 @@
+pragma experimental SMTChecker;
 pragma solidity >=0.6.0;
 
 // a library for performing various math operations
