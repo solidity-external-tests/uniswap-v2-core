@@ -2,11 +2,8 @@
 pragma solidity >=0.6.2;
 
 import './interfaces/IUniswapV2ERC20.sol';
-//import './libraries/SafeMath.sol';
 
 contract UniswapV2ERC20 is IUniswapV2ERC20 {
-//    using SafeMath for uint;
-
     string public constant override name = 'Uniswap V2';
     string public constant override symbol = 'UNI-V2';
     uint8 public constant override  decimals = 18;
